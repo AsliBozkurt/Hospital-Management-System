@@ -1,0 +1,149 @@
+  .sidenav {
+    height: 100%;
+    width: 220px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+    background-color: #5902EC;
+    color: #fff;
+  }
+  .main {
+    margin-left: 220px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  .sidenav a{
+      color: #fff;
+      text-decoration: none;
+  }
+  .sidenav h4{
+      text-align: center;
+      margin: 25px 0 10px;
+  }
+  .sidenav p{
+      text-align: center;
+      margin-bottom: 30px;
+      color: silver;
+  }
+/* 
+ *
+ *
+*/
+.profile{
+    background-color: rgba(255, 255, 255, 0.193);
+    backdrop-filter: blur(5px);
+    width: 80%;
+    padding: 50px;
+    border-radius: 100%;
+    text-align: center;
+    border: 7px solid #7900FF;
+    color: #fff;
+    margin-left: 20px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.5);
+    transition: 1s;
+    cursor: pointer;
+}
+.profile:hover{
+    background-color: rgba(255, 255, 255, 0);
+}
+.profile span{
+    font-size: 40px;
+}
+.tab{
+    background-color: rgba(255, 255, 255, 0.098);
+    backdrop-filter: blur(5px);
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.8);
+    margin: 10px 15px;
+    border-radius: 10px;
+    padding: 5px;
+    transition: 1s;
+}
+.tab .fas{
+    font-size: 20px;
+    margin-right: 8px;
+}
+.tab:hover{
+    background-color: rgba(255, 255, 255, 0);
+}
+.tab .logout-fas{
+    color: #FF1818;
+}
+.tab .add-fas{
+    color: #ffc800;
+}
+.tab .app-fas{
+    color: #019267;
+}
+.dash-fas{
+    color: #40DFEF;
+}
+/* 
+ *
+ *
+ *
+ *
+ *
+ *
+*/
+/* body{
+    background-color: #202040;
+} */
+/* 
+
+*
+*
+*
+*/
+.data{
+    padding: 5% 8%;
+}
+.data .card{
+    background-color: rgba(255, 255, 255, 0.326);
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.27);
+    cursor: pointer;
+}
+.amount{
+    font-size: 17px;
+}
+.fa-user-md{
+    color: #40DFEF;
+}
+.fa-procedures{
+    color: #019267;
+}
+.fa-calendar-alt{
+    color: #ffc800;
+}
+.fa-user{
+    color: #FF1818;
+}
+.divider{
+    text-align: center;
+    margin: 5% 0 0;
+    color: #FF1818;
+}
+/* 
+
+
+
+*/
+.properties{
+    font-size: 15px;
+    color: grey;
+}
+.topic{
+    font-weight: bold;
+    color: black;
+}
+/* 
+*
+*
+*
+ */
